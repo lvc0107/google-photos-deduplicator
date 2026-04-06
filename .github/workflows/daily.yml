@@ -1,6 +1,7 @@
 name: Daily Photo Cleanup
 
 on:
+  workflow_dispatch:   # 👈 THIS enables "Run workflow" button
   schedule:
     - cron: '0 3 * * *'
 
