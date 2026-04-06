@@ -1,0 +1,8 @@
+requests
+pillow
+imagehash
+tqdm
+python-dotenv
+torch
+git+https://github.com/openai/CLIP.git
+numpy
