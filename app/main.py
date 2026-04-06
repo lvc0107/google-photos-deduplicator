@@ -19,7 +19,8 @@ def pick_best(group):
 
 def main():
     photos = fetch_photos()
-
+    print(f"Total photos fetched: {len(photos)}")
+    
     processed = []
 
     for p in tqdm(photos):
